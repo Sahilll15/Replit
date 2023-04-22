@@ -69,3 +69,30 @@ print(person1)
 # person1.person_desc()
 # print(f"The age of the person is {person1.age}")
 # print(f"The name of the person is {person1.name}")
+
+#Abstract class
+import abc
+
+class Animal(abc.ABC):
+
+  def speak(self):
+    pass
+
+class Dog(Animal):
+
+  def speak(self):
+    return "Woof"
+
+class Cat(Animal):
+
+  def speak(self):
+    return "Meow"
+
+
+d = Dog()
+print(d.speak())
+
+c = Cat()
+print(c.speak())
+
+#Abstact INterface

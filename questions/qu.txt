@@ -1,0 +1,15 @@
+In Python, class variables and instance variables are two types of variables that can be used within a class.
+
+Class Variables:
+
+A class variable is a variable that is shared among all instances of a class.
+It is defined at the class level, outside of any methods.
+It can be accessed using the class name or any instance of the class.
+Class variables are useful for storing data that is shared among all instances of a class, such as constants or configuration data.
+Instance Variables:
+
+An instance variable is a variable that is unique to each instance of a class.
+It is defined within a method, typically the init method, and is prefixed with the self keyword.
+It can only be accessed using an instance of the class.
+Instance variables are useful for storing data that is unique to each instance of a class, such as attributes of the object.
+In summary, the main differences between class variables and instance variables in Python are their scope and the way they are accessed. Class variables are shared among all instances of a class and can be accessed using the class name or any instance of the class. Instance variables are unique to each instance of a class and can only be accessed using an instance of the class.
