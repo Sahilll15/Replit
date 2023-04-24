@@ -9,11 +9,10 @@ v3_sub=v1-v2
 print("The vector 1",v1)
 print("The vector 2",v2)
 print("The Solution is",v1+v2)
-print("The Solution is",v1-v2)
+print("The Solution is",v1-v2  df
 
 
 #parrt2
-
 s=2
 v4=s*v1
 print("the scalar multiplication is",v4)

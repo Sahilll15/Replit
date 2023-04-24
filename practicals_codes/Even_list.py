@@ -8,4 +8,3 @@ even_list=lambda x :x%2==0
 filter_numbers=list(filter(even_list,num_list))
 
 print(f"The filtered numbers are {filter_numbers}")
-
